@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Blog - Ryan Silva</title>
+    <script src="https://kit.fontawesome.com/f6826c6d44.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="contact.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="logo">
+                    <a href="home.html"><img src="logo-no-background.png" alt="Logo-svg"></a>
+                </div>
+                <ul class="menu">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../about/about.html">About Me</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="content">
+            <div class="left-side">
+                <div class="email details">
+                    <i class="fas fa-envelope"></i>
+                    <div class="topic">Email</div>
+                    <div class="text-one">ryanv0910@gmail.com</div>
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="topic-text">Send me a message</div>
+                <p>Send a message to get support</p>
+                <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                    <input type="hidden" name="access_key" value="65d32e51-fe25-460a-857d-185d764b9a23">
+                    <div class="input-box">
+                        <input type="text" name="name" required placeholder="Enter your name">
+                    </div>
+                    <div class="input-box">
+                        <input type="text" name="email" required placeholder="Enter your email">
+                    </div>
+                    <div class="input-box message-box">
+                        <textarea name="message" required placeholder="Message..."></textarea>
+                    </div>
+                    <div class="button">
+                        <input type="submit" value="Send Now">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="content">
+            <div class="top">
+                <div class="logo-details">
+                    <span class="logo_name"><img src="logo-no-background.png" alt="Logo-svg"></span>
+                </div>
+                <div class="media-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-details">
+            <div class="bottom_text">
+                <span class="copyright_text">Copyright &#169; 2024 <a href="#">Ryan SIlva.</a><br>All rights reserved</span>
+                <span class="policy_terms">
+                    <a href="#">Privacy policy</a>
+                    <a href="#">Terms & Conditions</a>
+                </span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
