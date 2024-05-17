@@ -243,6 +243,10 @@ nav .navbar{
 .about .resume{
     width: 600px;
 }
+.knowledges .knowledges-title h2{
+    font-weight: 500;
+    margin-left: 5px;
+}
 .about .knowledges ul{
     display: flex;
     flex-wrap: wrap;
