@@ -112,6 +112,7 @@ nav .navbar{
     align-items: center;
     max-width: 250px;
     width: 100%;
+    height: 450px;
     background: #fff;
     border-radius: 8px;
     padding: 25px;
@@ -123,7 +124,7 @@ nav .navbar{
     position: absolute;
     top: 0;
     left: 0;
-    height: 36%;
+    height: 150px;
     width: 100%;
     border-radius: 8px 8px 0 0;
     background-color: #7c7c7c;
@@ -242,11 +243,34 @@ nav .navbar{
 }
 .about .resume{
     width: 600px;
+    margin-right: -30px;
+}
+.resume .resume-title{
+    margin-top: 10px;
 }
 .knowledges .knowledges-title h2{
     font-weight: 500;
     margin-left: 5px;
 }
+/* About Blocks */
+.resume .resume-blocks{
+    display: flex;
+    flex-wrap: wrap;
+}
+.resume-blocks .block{
+    display: flex;
+    width: 40%;
+    padding: 10px;
+    margin:  0 10px 10px 0;
+    border-radius: 10px;
+    background: #f2f2f2;
+}
+.resume-blocks .block i{
+    line-height: 30px;
+    margin-right: 5px;
+    color: #727272;
+}
+/* About knowledges */
 .about .knowledges ul{
     display: flex;
     flex-wrap: wrap;
@@ -282,12 +306,15 @@ nav .navbar{
     .about .knowledges ul{
         width: fit-content;
     }
+    .resume-blocks .block{
+        width: 400px;
+    }
 }
-@media(max-width: 800px){
+@media(max-width: 920px){
     .container{
         display: block;
     }
-    .profile-card{  
+    .profile-card{
         max-width: 450px;
         width: 100%;
         margin: 0 auto;
@@ -296,6 +323,12 @@ nav .navbar{
         max-width: 450px;
         width: 100%;
         margin: 10px auto 0 auto;
+    }
+    .resume .resume-blocks{
+        margin-right: -40px;
+    }
+    .resume-blocks .block{
+        width: 80%;
     }
 }
 /* Footer */
